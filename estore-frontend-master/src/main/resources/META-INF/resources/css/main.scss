@@ -1,0 +1,29 @@
+.estore-frontend {
+}
+
+.modal-open .modal {
+	overflow-y: hidden;
+}
+
+.dialog-iframe-popup {
+	.button-holder.dialog-footer {
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+}
+.dialog-iframe-popup form {
+	margin-left: 2%;
+	margin-right: 2%;
+	.row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+a.disabled {
+    pointer-events:none !important;
+}
+
+.nav-underline .nav-link:focus, .nav-underline .tab a:focus {
+    box-shadow: none !important;
+}

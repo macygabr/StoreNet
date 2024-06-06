@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02c4bdb8-540f-4a2b-9a89-003ac7bbe6dc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/bnd.bnd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/constants/EStoreKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/EmpItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/EmployeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/ShopDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/EmployeeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/ShopHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/CommonPortlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/DictPortlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/RegistrPortlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/electrotype/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/positiontype/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/purchasetype/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/electroview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/init.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/electronic/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/employee/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/employee/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/purchase/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/content/Language.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/nohup.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Backend/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/AboutusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FieldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/Otvali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/WebSocketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Fild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/HelloMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/audio/home.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/audio/otvinta.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/Macaca_nigra_self-portrait_large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/Minecraft.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/gachi2233.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/home3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/ill_draw.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/js result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/scale_1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/arrow-repeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/cheese.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/cloud-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/designer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/fild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/frontender.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/green_fild.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/house.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/maze.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/otvali.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/question-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja_files/appDialogsManager-DVwnvjZS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja_files/index-8FqDkb1A.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja_files/index-r2gGMmA-.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/СheeseСrumbles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/js/mapscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/styles/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/styles/grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/styles/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/window.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/field.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/files.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/otvali.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/upload.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2hTPRLzcT4U7L0P2BFQ9p4mvOoR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macygabr/Projects/StoreNet&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/EmployeeApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02c4bdb8-540f-4a2b-9a89-003ac7bbe6dc" name="Changes" comment="" />
+      <created>1717615084621</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717615084621</updated>
+    </task>
+    <servers />
+  </component>
+</project>
