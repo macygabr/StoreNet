@@ -5,68 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02c4bdb8-540f-4a2b-9a89-003ac7bbe6dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/backend/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/models/Package.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/shopscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Backend/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/backend/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/AboutusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/AboutusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/CustomErrorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FieldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FieldController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/Otvali.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/Otvali.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/WebSocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/WebSocketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Cheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Fild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Fild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/HelloMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/HelloMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Backend/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/backend/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/AboutusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/AboutusController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/CustomErrorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/FieldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/FileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/FileUploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/Otvali.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/WebSocketController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Cell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Cheese.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Fild.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Greeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/HelloMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/Macaca_nigra_self-portrait_large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/Minecraft.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/gachi2233.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/home3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/ill_draw.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/js result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/scale_1200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/mapscript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/field.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/files.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/otvali.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/test.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/bnd.bnd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/constants/EStoreKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/EmpItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/EmployeeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/ShopDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/EmployeeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/Handler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/ShopHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/CommonPortlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/DictPortlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/RegistrPortlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/electrotype/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/positiontype/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/purchasetype/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/electroview.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/init.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/electronic/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/employee/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/employee/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/purchase/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/view.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/content/Language.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FileUploadController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,9 +82,9 @@
       <recent name="$PROJECT_DIR$/src/EmployeeApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config" />
       <recent name="$PROJECT_DIR$/src/Server/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">

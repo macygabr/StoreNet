@@ -13,6 +13,7 @@ public class FileUploadController {
     public String uploadForm() {
         return "pages/upload";
     }
+    
     @PostMapping("/upload")
     public String uploadFile(@RequestParam("file") MultipartFile file) {
         try {
