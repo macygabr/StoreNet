@@ -5,121 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02c4bdb8-540f-4a2b-9a89-003ac7bbe6dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/bnd.bnd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/constants/EStoreKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/EmpItemDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/EmployeeDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/dto/ShopDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/EmployeeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/handler/ShopHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/CommonPortlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/DictPortlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/java/ru/isands/test/estore/portlet/RegistrPortlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/css/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/electrotype/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/positiontype/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/purchasetype/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/electroview.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/shop/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/dict/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/init.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/electronic/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/employee/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/employee/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/purchase/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/META-INF/resources/jsp/registr/view.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/estore-frontend-master/src/main/resources/content/Language.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/nohup.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Backend/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/AboutusController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/CustomErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FieldController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/Otvali.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/WebSocketController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/config/WebSocketConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Fild.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Greeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/HelloMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/audio/home.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/audio/otvinta.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/Macaca_nigra_self-portrait_large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/Minecraft.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/gachi2233.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/home3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/ill_draw.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/js result.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/download/scale_1200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/arrow-repeat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/cheese.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/cloud-arrow-down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/designer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/fild.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/frontender.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/green_fild.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/home3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/house.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/maze.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/mouse/classic3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/otvali.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/question-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/upload.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja_files/appDialogsManager-DVwnvjZS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja_files/index-8FqDkb1A.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/yellowja_files/index-r2gGMmA-.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/img/СheeseСrumbles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/js/mapscript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/styles/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/styles/grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/static/styles/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/blocks/window.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/aboutus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/field.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/otvali.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/resources/templates/pages/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/backend/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/models/Package.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/shopscript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Backend/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/backend/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/AboutusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/AboutusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/CustomErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FieldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FieldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/Otvali.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/Otvali.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Controller/WebSocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/controller/WebSocketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Cheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Fild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Fild.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/HelloMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/HelloMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmployeeApp/src/main/java/org/example/server/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Backend/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/backend/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/AboutusController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/AboutusController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/CustomErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/CustomErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/FieldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/FileUploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/Otvali.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Controller/WebSocketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config/WebSocketConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Cheese.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Fild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/HelloMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/Macaca_nigra_self-portrait_large.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/Minecraft.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/gachi2233.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/home3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/ill_draw.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/js result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/download/scale_1200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/static/js/mapscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/src/main/resources/templates/blocks/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/field.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/files.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/otvali.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/src/main/resources/templates/pages/test.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,9 +98,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macygabr/Projects/StoreNet&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/macygabr/Project/StoreNet&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -149,8 +111,30 @@
       <recent name="$PROJECT_DIR$/src/EmployeeApp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Server/src/main/java/org/example/server/config" />
+      <recent name="$PROJECT_DIR$/src/Server/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.server.Main" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -165,5 +149,10 @@
       <updated>1717615084621</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StoreNet$Main.ic" NAME="Main Coverage Results" MODIFIED="1717711065763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.server.*</FILTER>
+    </SUITE>
   </component>
 </project>
