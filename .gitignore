@@ -50,3 +50,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 .idea
+
+
+# My list
+.DS_Store
