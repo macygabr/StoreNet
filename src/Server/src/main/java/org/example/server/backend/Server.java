@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 public class Server {
-    @Autowired
+//    @Autowired
     private Database database;
 
     public Product[] findByName(String name) {
