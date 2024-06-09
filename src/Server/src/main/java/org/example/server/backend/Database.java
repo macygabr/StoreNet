@@ -9,9 +9,27 @@ import org.example.server.models.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+<<<<<<< HEAD
 import org.springframework.jdbc.core.JdbcTemplate;
 import javax.sql.DataSource;
 
+=======
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+import org.springframework.jdbc.core.JdbcTemplate;
+import javax.sql.DataSource;
+
+
+import java.io.File;
+import java.io.FileReader;
+import com.opencsv.CSVReader;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Component;
+import javax.annotation.PostConstruct;
+
+>>>>>>> a733545ff742d4514d045eb77a04b4d2d6b9e64a
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -27,12 +45,22 @@ import javax.annotation.PostConstruct;
 @Component
 public class Database {
     private static final String path = "src/main/resources/static/download/";
+<<<<<<< HEAD
+=======
+    // private static DataSource dataSource;
+>>>>>>> a733545ff742d4514d045eb77a04b4d2d6b9e64a
     private static JdbcTemplate jdbcTemplate;
 
     @Autowired
     public Database(@Qualifier("SpringDataSource") DataSource dataSource) {
+        // this.dataSource = dataSource;
         this.jdbcTemplate = new JdbcTemplate(dataSource);
     }
+    
+    public Database() {
+        this.jdbcTemplate = null;
+    }
+
 
     public void addPurchase(String name) throws Exception {
         String maxIdQuery = "SELECT COALESCE(MAX(id), 0) FROM purchase";
@@ -104,7 +132,6 @@ public class Database {
                 throw new IllegalArgumentException("The CSV file is empty or has an invalid header.");
             }
             List<String[]> records = csvReader.readAll();
-
             for (String[] record : records) {
                 long id = Long.parseLong(record[0]);
                 String name = record[1];
