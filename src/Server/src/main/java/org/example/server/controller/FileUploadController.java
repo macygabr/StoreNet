@@ -1,5 +1,7 @@
 package org.example.server.controller;
 
+import org.example.server.models.Product;
+
 import org.example.server.backend.Database;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -16,10 +18,12 @@ public class FileUploadController {
     @Autowired
     private Database database;
 
+
     @RequestMapping("/upload")
     public String uploadForm() {
         return "pages/upload";
     }
+
     @PostMapping("/upload")
     public String uploadFile(@RequestParam("file") MultipartFile file) {
         try {
