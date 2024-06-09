@@ -8,23 +8,43 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.stereotype.Controller;
 import javax.servlet.http.HttpServletRequest;
 import org.example.server.models.Product;
+import org.example.server.models.Package;
 import org.example.server.backend.Server;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Controller
 public class ShopController {
-    private final Server server = new Server();
+    private final Server server;
+
+    @Autowired
+    public ShopController(Server server) {
+        this.server = server;
+    }
 
     @RequestMapping("/shop")
     public String shop(HttpServletRequest request, Model model) {
         model.addAttribute("currentUrl", request.getRequestURI());
-        model.addAttribute("address", request.getRemoteAddr());
+        model.addAttribute("address", "83.147.246.223");
         return "pages/shop";
     }
 
-    @MessageMapping("/shop")
-    @SendTo("/topic/results")
-    public Product[] handleSearch(Product query) {
-        System.out.println(query);
+    @MessageMapping("/search")
+    @SendTo("/topic/search_results")
+    public Product Search(Product query) {
         return server.findByName(query.getName());
+    }
+
+    @MessageMapping("/buy")
+    @SendTo("/topic/buy_results")
+    public Package handleSearch(Package query) {
+        Package res = new Package();
+        try{
+            server.addPurchase(query.getQuery());
+            res.setStatus(200);
+        } catch(Exception e) {
+            res.setStatus(404);
+            e.printStackTrace();
+        }
+        return res;
     }
 }

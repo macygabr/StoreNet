@@ -7,6 +7,7 @@ import lombok.Setter;
 @Setter
 public class Package {
     private String query;
+    private int status;
 
     @Override
     public String toString() {

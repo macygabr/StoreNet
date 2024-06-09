@@ -1,17 +1,21 @@
 var address;
-var brokerURL = `ws://${address}:8080/gs-guide-websocket`;
+
+var brokerURL = `ws://${address}:333/gs-guide-websocket`;
 const stompClient = new StompJs.Client({
      brokerURL: brokerURL
 });
 
 stompClient.onConnect = (frame) => {
+    console.log(address)
     setConnected(true);
     console.log('Connected: ' + frame);
-    stompClient.subscribe('/topic/results', (greeting) => {
-            ListenServer(greeting);
+    stompClient.subscribe('/topic/search_results', (greeting) => {
+        SearchResults(greeting);
+    });
+    stompClient.subscribe('/topic/buy_results', (greeting) => {
+        BuyResults(greeting);
     });
 };
-
 
 function connect() {
     stompClient.activate();
@@ -54,15 +58,38 @@ function handleFormSubmit(event) {
     sendQueryToServer(query);
 }
 
-function ListenServer(greeting) {
-    if(greeting != null) console.log(greeting.body)
-    else console.log("none")
+function SearchResults(greeting) {
+    var body = JSON.parse(greeting.body)
+    if(body.id == 0) {
+        document.getElementById('product').style.visibility = 'hidden';
+        alert("product not found!");
+        return;
+    }
+    document.getElementById("name").innerText = body.name;
+    document.getElementById("etypeid").innerText = body.etypeid;
+    document.getElementById("price").innerText = body.price;
+    document.getElementById("count").innerText = body.count;
+    document.getElementById("archive").innerText = body.archive;
+    document.getElementById("description").innerText = body.description;
+    document.getElementById('product').style.visibility = 'visible';
+}
+
+function BuyResults(greeting) {
+    var body = JSON.parse(greeting.body)
+    if(body.status == 404) return;
+    if(body.status == 200) document.getElementById('product').style.visibility = 'hidden';
 }
 
 function sendQueryToServer(query) {
-    console.log(address)
     stompClient.publish({
-        destination: "/app/shop",
+        destination: "/app/search",
         body: JSON.stringify({'name': query})
+    });
+}
+
+function Buy() {
+    stompClient.publish({
+        destination: "/app/buy",
+        body: JSON.stringify({'status': 200, 'query': document.getElementById("name").innerText})
     });
 }
