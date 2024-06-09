@@ -9,11 +9,6 @@ import org.example.server.models.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-<<<<<<< HEAD
-import org.springframework.jdbc.core.JdbcTemplate;
-import javax.sql.DataSource;
-
-=======
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -29,7 +24,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 
->>>>>>> a733545ff742d4514d045eb77a04b4d2d6b9e64a
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -45,10 +39,7 @@ import javax.annotation.PostConstruct;
 @Component
 public class Database {
     private static final String path = "src/main/resources/static/download/";
-<<<<<<< HEAD
-=======
     // private static DataSource dataSource;
->>>>>>> a733545ff742d4514d045eb77a04b4d2d6b9e64a
     private static JdbcTemplate jdbcTemplate;
 
     @Autowired
