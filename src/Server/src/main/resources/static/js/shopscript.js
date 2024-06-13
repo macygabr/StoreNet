@@ -1,6 +1,6 @@
 var address;
 
-var brokerURL = `ws://${address}:333/gs-guide-websocket`;
+var brokerURL = `ws://${address}:80/gs-guide-websocket`;
 const stompClient = new StompJs.Client({
      brokerURL: brokerURL
 });

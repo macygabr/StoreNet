@@ -50,7 +50,7 @@ public class ApplicationConfig {
             dataSource.getConnection().createStatement().execute(sql_create_Purchase);
             dataSource.getConnection().createStatement().execute(sql_create_PurchaseType);
        } catch(Exception e) {
-            System.out.println("\033[31mUp database!!!\033[0m");
+            System.out.println("\033[31mDatabase connection error!!!\033[0m");
             e.printStackTrace();
        }
        return dataSource;

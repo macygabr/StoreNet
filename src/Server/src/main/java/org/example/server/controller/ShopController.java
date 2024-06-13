@@ -1,6 +1,5 @@
 package org.example.server.controller;
 
-import org.example.server.backend.Database;
 import org.springframework.ui.Model;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
@@ -24,7 +23,7 @@ public class ShopController {
     @RequestMapping("/shop")
     public String shop(HttpServletRequest request, Model model) {
         model.addAttribute("currentUrl", request.getRequestURI());
-        model.addAttribute("address", "83.147.246.223");
+        model.addAttribute("address", server.getAddress());
         return "pages/shop";
     }
 
