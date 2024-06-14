@@ -33,7 +33,7 @@ public class ApplicationConfig {
 
    @Bean(name = "SpringDataSource")
    @Scope("singleton")
-   public DataSource initSpringDataSource(){
+   public DataSource initSpringDataSource() {
        DriverManagerDataSource dataSource = new DriverManagerDataSource();
        try {
             dataSource.setUrl(DB_URL);

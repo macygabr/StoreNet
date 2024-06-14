@@ -15,6 +15,9 @@ stompClient.onConnect = (frame) => {
     stompClient.subscribe('/topic/buy_results', (greeting) => {
         BuyResults(greeting);
     });
+    stompClient.subscribe('/topic/findAllPurchase_results', (greeting) => {
+        findAllResults(greeting);
+    });
 };
 
 function connect() {
@@ -61,29 +64,57 @@ function handleFormSubmit(event) {
 function SearchResults(greeting) {
     var body = JSON.parse(greeting.body)
     if(body.id == 0) {
-        document.getElementById('product').style.visibility = 'hidden';
         alert("product not found!");
         return;
     }
-    document.getElementById("name").innerText = body.name;
-    document.getElementById("etypeid").innerText = body.etypeid;
-    document.getElementById("price").innerText = body.price;
-    document.getElementById("count").innerText = body.count;
-    document.getElementById("archive").innerText = body.archive;
-    document.getElementById("description").innerText = body.description;
-    document.getElementById('product').style.visibility = 'visible';
+
+    var name = document.createElement('h2').innerText;
+    var etypeid = document.createElement('h3').innerText = body.etypeid;
+    var price = document.createElement('h3').innerText = body.price;
+    var count = document.createElement('h3').innerText = body.count;
+    var archive = document.createElement('h3').innerText = body.archive;
+    var description = document.createElement('h3').innerText = body.description;
+
+    // var product = document.createElement('div');
+    // product.appendChild(name);
+    // product.appendChild(etypeid);
+    // product.appendChild(price);
+    // product.appendChild(count);
+    // product.appendChild(archive);
+    // product.appendChild(description);
+
+    // document.getElementById('container').appendChild(product);
 }
 
 function BuyResults(greeting) {
     var body = JSON.parse(greeting.body)
     if(body.status == 404) return;
-    if(body.status == 200) document.getElementById('product').style.visibility = 'hidden';
+    if(body.status == 200) document.getElementById('product').remove();
+}
+
+function findAllResults(greeting) {
+    var body = JSON.parse(greeting.body)
+    if(body.status == 404) return;
+    
+    for(var i = 0; i < body.length; i++) {
+         var purchase = document.createElement('div');
+         purchase.textContent = 'This is a purchase!';
+         purchase.style = 'width: 33%';
+         document.getElementById('container').appendChild(purchase);
+    }
 }
 
 function sendQueryToServer(query) {
     stompClient.publish({
         destination: "/app/search",
         body: JSON.stringify({'name': query})
+    });
+}
+
+function sendQueryToFindAll() {
+    stompClient.publish({
+        destination: "/app/findAllPurchase",
+        body: JSON.stringify({'status': 200})
     });
 }
 
