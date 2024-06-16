@@ -35,7 +35,6 @@ function callOnConnect() {
     Reboot(0,0,1);
 }
 
-
 function setConnected(connected) {
     $("#connect").prop("disabled", connected);
     $("#disconnect").prop("disabled", !connected);
@@ -82,7 +81,7 @@ function SearchResults(greeting) {
     // product.appendChild(count);
     // product.appendChild(archive);
     // product.appendChild(description);
-
+    
     // document.getElementById('container').appendChild(product);
 }
 
