@@ -1,0 +1,13 @@
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/controller/ShopController.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/models/Purchase.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/backend/Server.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/controller/HomeController.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/controller/CustomErrorController.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/models/Product.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/Main.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/config/ApplicationConfig.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/backend/ConvertCSVtoDatabase.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/config/WebSocketConfig.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/backend/Database.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/controller/FileUploadController.java
+/home/macygabr/Project/StoreNet/src/Server/src/main/java/org/example/server/models/Package.java
