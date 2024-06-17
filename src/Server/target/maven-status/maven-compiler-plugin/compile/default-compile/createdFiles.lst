@@ -1,7 +1,9 @@
 org/example/server/backend/Database.class
+org/example/server/models/Purchase.class
 org/example/server/controller/CustomErrorController.class
 org/example/server/controller/AboutusController.class
 org/example/server/config/WebSocketConfig.class
+org/example/server/backend/ConvertCSVtoDatabase.class
 org/example/server/models/Product.class
 org/example/server/controller/ShopController.class
 org/example/server/controller/HomeController.class

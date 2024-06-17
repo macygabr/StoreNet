@@ -18,19 +18,8 @@
 
 <body onload="connect();">
 <div style="display: flex;">
-    <sidebar th:insert="blocks/sidebar"></sidebar>
-
-    <div id="product" class="bg-body-tertiary p-5 rounded" style="height: min-content; visibility: hidden;">
-        <div style="display: flex; justify-content: space-between;">
-            <h2 id="name"></h1>
-            <h2 id="count"></h2>
-            <h2 id="etypeid"></h2>
-            <h2 id="price"></h2>
-            <h2 id="archive"></h2>
-        </div>
-        <p class="lead" id="description"></p>
-        <a class="btn btn-lg btn-primary" onclick="Buy()">Buy»</a>
-    </div>
+    <sidebar th:insert="blocks/sidebar" style="width: 15%; height: 95vh"></sidebar>
+    <div id="container" style="display: flex; flex-direction: row; flex-wrap: wrap"></div>
 </div>
 
 </body>

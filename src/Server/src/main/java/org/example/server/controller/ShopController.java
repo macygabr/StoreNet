@@ -7,9 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.stereotype.Controller;
 import javax.servlet.http.HttpServletRequest;
 import org.example.server.models.Product;
+import org.example.server.models.Purchase;
 import org.example.server.models.Package;
 import org.example.server.backend.Server;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.ArrayList;
 
 @Controller
 public class ShopController {
@@ -31,6 +34,12 @@ public class ShopController {
     @SendTo("/topic/search_results")
     public Product Search(Product query) {
         return server.findByName(query.getName());
+    }
+
+    @MessageMapping("/findAllPurchase")
+    @SendTo("/topic/findAllPurchase_results")
+    public ArrayList<Purchase> findAllPurchaseSearch() {
+        return server.findAllPurchase();
     }
 
     @MessageMapping("/buy")
